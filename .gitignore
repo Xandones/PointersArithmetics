@@ -1,32 +1,163 @@
-# Prerequisites
-*.d
+# Visual Studio
+.vscode/
+.vs/
+*.code-workspace
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono auto generated files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# C++ specific
 *.obj
-
-# Precompiled Headers
-*.gch
 *.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+*.pdb
+*.idb
+*.ipdb
+*.iobj
+*.ilk
+*.tlog
+*.log
+*.vspscc
+*.vssscc
+*.vspx
+*.vsp
+*.vsmdi
+*.testsettings
+*.vsix
+*.vsixmanifest
+*.builds
+*.pidb
+*.svclog
+*.scc
+*.cache
+*.ilk
+*.ncb
+*.sbr
+*.scc
+*.aps
+*.opendb
+*.opensdf
+*.sdf
+*.ipch
+*.iobj
+*.ipdb
+*.tlog
+*.log
+*.lastbuildstate
+*.suo
+*.sln
+*.user
+*.unsuccessfulbuild
+*.unsuccessfulbuilds
+*.lastcodeanalysissucceeded
+*.lastcodeanalysissuccess
+*.lastcodeanalysissuccesses
+*.lastcodeanalysissuccessful
+*.lastcodeanalysissuccessfuls
+*.lastcodeanalysissuccessfulbuild
+*.lastcodeanalysissuccessfulbuilds
+*.lastcodeanalysissuccessfulbuildstate
+*.lastcodeanalysissuccessfulbuildstates
+*.lastcodeanalysissuccessfulbuildstatefile
+*.lastcodeanalysissuccessfulbuildstatefiles
+*.lastcodeanalysissuccessfulbuildstatefilelist
+*.lastcodeanalysissuccessfulbuildstatefilelists
+*.lastcodeanalysissuccessfulbuildstatefilelistfile
+*.lastcodeanalysissuccessfulbuildstatefilelistfiles
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelist
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelists
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfile
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfiles
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelist
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelists
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfile
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfiles
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelist
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelists
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfile
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfiles
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelist
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelists
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfile
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfiles
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelist
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelists
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfile
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfiles
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelist
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelists
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfile
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfiles
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelist
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelists
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfile
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfiles
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelist
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelists
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfile
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfiles
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelist
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelists
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfile
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfiles
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelist
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelists
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfile
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfiles
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelist
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelists
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfile
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfiles
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelist
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelists
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfile
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfiles
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelist
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelists
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfile
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfiles
+*.lastcodeanalysissuccessfulbuildstatefilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelistfilelist
+*.lastcodeanal
