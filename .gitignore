@@ -23,7 +23,6 @@ bld/
 *.suo
 *.user
 *.userosscache
-*.sln.docstates
 
 # Mono auto generated files
 mono_crash.*
@@ -59,7 +58,6 @@ $RECYCLE.BIN/
 *.iobj
 *.ilk
 *.tlog
-*.log
 *.vspscc
 *.vssscc
 *.vspx
@@ -73,23 +71,14 @@ $RECYCLE.BIN/
 *.svclog
 *.scc
 *.cache
-*.ilk
 *.ncb
 *.sbr
-*.scc
 *.aps
 *.opendb
 *.opensdf
 *.sdf
 *.ipch
-*.iobj
-*.ipdb
-*.tlog
-*.log
 *.lastbuildstate
-*.suo
-*.sln
-*.user
 *.unsuccessfulbuild
 *.unsuccessfulbuilds
 *.lastcodeanalysissucceeded
